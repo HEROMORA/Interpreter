@@ -1,0 +1,3 @@
+/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir
+/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/CMakeFiles/edit_cache.dir

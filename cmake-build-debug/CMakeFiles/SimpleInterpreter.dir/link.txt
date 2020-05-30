@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/SimpleInterpreter.dir/main.c.o CMakeFiles/SimpleInterpreter.dir/heap.c.o CMakeFiles/SimpleInterpreter.dir/bst.c.o  -o SimpleInterpreter 

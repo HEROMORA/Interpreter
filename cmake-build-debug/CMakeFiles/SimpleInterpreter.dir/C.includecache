@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heromora/Projects/CLionProjects/SimpleInterpreter/heap.h
+
+/home/heromora/Projects/CLionProjects/SimpleInterpreter/main.c
+stdio.h
+-
+heap.h
+/home/heromora/Projects/CLionProjects/SimpleInterpreter/heap.h
+
