@@ -13,7 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2543d20e-5e49-4e0a-a122-e2529eae4522" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst.c" beforeDir="false" afterPath="$PROJECT_DIR$/bst.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bst.h" beforeDir="false" afterPath="$PROJECT_DIR$/bst.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimpleInterpreter.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/SimpleInterpreter" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SimpleInterpreter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -72,29 +77,49 @@
       <workItem from="1590096100713" duration="7164000" />
       <workItem from="1590877425888" duration="4073000" />
       <workItem from="1590881547355" duration="1101000" />
-      <workItem from="1591028970728" duration="391000" />
+      <workItem from="1591028970728" duration="1072000" />
     </task>
+    <task id="LOCAL-00001" summary="Sort by value and sort by key are both working now">
+      <created>1591029395445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591029395445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sort by value and sort by key are both working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort by value and sort by key are both working now" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1591029346614">
+    <state x="552" y="115" width="805" height="803" key="CommitChangelistDialog2" timestamp="1591029395218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591029346614" />
-    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1591029346613">
+    <state x="552" y="115" width="805" height="803" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591029395218" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1591030028301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591029346613" />
-    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1591029346612">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591030028301" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1591030028301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591029346612" />
-    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1591029346613">
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591030028301" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1591030028300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591029346613" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591030028300" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1591030028301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591030028301" />
+    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1591029402732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591029402732" />
   </component>
 </project>

@@ -8,6 +8,7 @@ CMakeFiles/SimpleInterpreter.dir/bst.c.o: ../heap.h
 CMakeFiles/SimpleInterpreter.dir/heap.c.o: ../heap.c
 CMakeFiles/SimpleInterpreter.dir/heap.c.o: ../heap.h
 
+CMakeFiles/SimpleInterpreter.dir/main.c.o: ../bst.h
 CMakeFiles/SimpleInterpreter.dir/main.c.o: ../heap.h
 CMakeFiles/SimpleInterpreter.dir/main.c.o: ../main.c
 

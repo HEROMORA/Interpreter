@@ -36,6 +36,19 @@ BSTNode* insert(BSTNode* current,char* key,TYPE value)
     return current;
 }
 
+BSTNode* insertByItem(BSTNode* current, Item* item)
+{
+    if(!current)
+        return newNodeByItem(item);
+    if(strcasecmp(item->key,current->item->key)<0)
+        current->left = insert(current->left,item->key,item->value);
+    else if(strcasecmp(item->key,current->item->key)>0)
+        current->right = insert(current->right,item->key,item->value);
+    else
+        current->item->value = item->value;
+    return current;
+}
+
 void inOrder(BSTNode* root)
 {
     if(root)

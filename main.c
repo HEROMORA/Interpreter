@@ -30,7 +30,9 @@ int main() {
     BSTNode* nodes[10];
     for (int i = 0; i < x; i++) {
         nodes[i] = newNodeByItem(items[i]);
-        nodes[0] = insert(nodes[0], nodes[i]->item->key, nodes[i]->item->value);
+        nodes[0] = insertByItem(nodes[0], items[i]);
+        // OR YOU CAN INSERT BY ADDING
+        //nodes[0] = insert(nodes[0], items[i]->key, items[i]->value);
     }
 
     inOrder(nodes[0]);
