@@ -8,95 +8,121 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug"/>
+				<Option working_dir="C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SimpleInterpreter">
-				<Option output="/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/SimpleInterpreter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug"/>
+				<Option output="C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/SimpleInterpreter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleInterpreter"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleInterpreter"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SimpleInterpreter/fast">
-				<Option output="/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/SimpleInterpreter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug"/>
+				<Option output="C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/SimpleInterpreter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleInterpreter/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleInterpreter/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug"/>
+				<Option working_dir="C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/heromora/Projects/CLionProjects/SimpleInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/HEROMORA/Documents/Projects/Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/heromora/Projects/CLionProjects/SimpleInterpreter/bst.c">
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/bst.c">
 			<Option target="SimpleInterpreter"/>
 		</Unit>
-		<Unit filename="/home/heromora/Projects/CLionProjects/SimpleInterpreter/bst.h">
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/bst.h">
 			<Option target="SimpleInterpreter"/>
 		</Unit>
-		<Unit filename="/home/heromora/Projects/CLionProjects/SimpleInterpreter/heap.c">
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/heap.c">
 			<Option target="SimpleInterpreter"/>
 		</Unit>
-		<Unit filename="/home/heromora/Projects/CLionProjects/SimpleInterpreter/heap.h">
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/heap.h">
 			<Option target="SimpleInterpreter"/>
 		</Unit>
-		<Unit filename="/home/heromora/Projects/CLionProjects/SimpleInterpreter/main.c">
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/stack.c">
 			<Option target="SimpleInterpreter"/>
 		</Unit>
-		<Unit filename="/home/heromora/Projects/CLionProjects/SimpleInterpreter/types.h">
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/stack.h">
 			<Option target="SimpleInterpreter"/>
 		</Unit>
-		<Unit filename="/home/heromora/Projects/CLionProjects/SimpleInterpreter/CMakeLists.txt">
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/types.h">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/evaluation.c">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/evaluation.h">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/io.c">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/io.h">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/main.c">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/tools.c">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/tools.h">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/validations.c">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/validations.h">
+			<Option target="SimpleInterpreter"/>
+		</Unit>
+		<Unit filename="C:/Users/HEROMORA/Documents/Projects/Interpreter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

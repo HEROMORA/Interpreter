@@ -6,11 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/heromora/Projects/CLionProjects/SimpleInterpreter/heap.h
+C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/bst.h
+heap.h
+C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/heap.h
 
-/home/heromora/Projects/CLionProjects/SimpleInterpreter/main.c
+C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/heap.h
+types.h
+C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/types.h
+
+C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/types.h
 stdio.h
 -
-heap.h
-/home/heromora/Projects/CLionProjects/SimpleInterpreter/heap.h
+
+C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/evaluation.h
+../DataStructures/bst.h
+C:/Users/HEROMORA/Documents/Projects/Interpreter/DataStructures/bst.h
+
+C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/io.h
+evaluation.h
+C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/evaluation.h
+
+C:/Users/HEROMORA/Documents/Projects/Interpreter/main.c
+stdio.h
+-
+ReadEvaluate/io.h
+C:/Users/HEROMORA/Documents/Projects/Interpreter/ReadEvaluate/io.h
 
