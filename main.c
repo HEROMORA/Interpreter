@@ -8,20 +8,28 @@ void printItems(Item** items, int counter) {
     }
 }
 
+void bstToHeap(BSTNode* node, Item** items, int* i) {
+    if (node) {
+        *(items + *i) = node->item;
+        *i = *i + 1;
+        bstToHeap(node->left, items, i);
+        bstToHeap(node->right, items, i);
+    }
+}
+
 int main() {
     BSTNode *root = NULL;
     Item** items;
-    int counter = 0;
-    process(&root, items, &counter);
+    process(&root);
     if (!error){
         printf("\nBinary Search Tree InOrder:\n");
         inOrder(root);
         printf("\n");
         printf("\nHeap Sort by value:\n");
-        heapSort(items, counter);
-        printItems(items, counter);
+        int co = 0;
+        bstToHeap(root, items, &co);
+        heapSort(items, co);
+        printItems(items, co);
     }
-
     return 0;
 }
-

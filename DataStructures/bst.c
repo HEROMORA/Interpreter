@@ -24,9 +24,9 @@ BSTNode *newNodeByItem(Item *item) {
 BSTNode *insert(BSTNode *current, char *key, TYPE value) {
     if (!current)
         return addNewNode(key, value);
-    if (strcasecmp(key, current->item->key) < 0)
+    if (strcmp(key, current->item->key) < 0)
         current->left = insert(current->left, key, value);
-    else if (strcasecmp(key, current->item->key) > 0)
+    else if (strcmp(key, current->item->key) > 0)
         current->right = insert(current->right, key, value);
     else
         current->item->value = value;
@@ -36,9 +36,9 @@ BSTNode *insert(BSTNode *current, char *key, TYPE value) {
 BSTNode *insertByItem(BSTNode *current, Item *item) {
     if (!current)
         return newNodeByItem(item);
-    if (strcasecmp(item->key, current->item->key) < 0)
+    if (strcmp(item->key, current->item->key) < 0)
         current->left = insert(current->left, item->key, item->value);
-    else if (strcasecmp(item->key, current->item->key) > 0)
+    else if (strcmp(item->key, current->item->key) > 0)
         current->right = insert(current->right, item->key, item->value);
     else
         current->item->value = item->value;
@@ -56,10 +56,10 @@ void inOrder(BSTNode *root) {
 int Search(BSTNode *root, char *key, double *value) {
     BSTNode *current = root;
     while (current != NULL) {
-        if (strcasecmp(current->item->key, key) == 0) {
+        if (strcmp(current->item->key, key) == 0) {
             *value = current->item->value;
             return 1;
-        } else if (strcasecmp(current->item->key, key) > 0) {
+        } else if (strcmp(current->item->key, key) > 0) {
             if (current->left == NULL) break;
             else current = current->left;
         } else {
@@ -89,10 +89,10 @@ void freeNode(BSTNode *node){
 BSTNode* delete(BSTNode* root, char* data){
     if(root == NULL) return NULL;
 
-    if(strcasecmp(data,root->item->key) < 0)
+    if(strcmp(data,root->item->key) < 0)
         root->left = delete(root->left,data);
 
-    else if(strcasecmp(data,root->item->key) > 0)
+    else if(strcmp(data,root->item->key) > 0)
         root->right = delete(root->right,data);
 
     else{

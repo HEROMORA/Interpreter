@@ -26,7 +26,7 @@ int parse(char *instruction, char **variable, char **expression) {
 }
 
 
-int validateIf(char *instruction, int end, BSTNode **root, Item** items, int* counter) {
+int validateIf(char *instruction, int end, BSTNode **root) {
     char leftHandSide[end];
     strcpy(leftHandSide, "");
     int i = 3;
@@ -62,12 +62,12 @@ int validateIf(char *instruction, int end, BSTNode **root, Item** items, int* co
     strcpy(leftHandSideExpression, "_LHS = ");
     strcat(leftHandSideExpression, leftHandSide);
 
-    compute(&copy, items, leftHandSideExpression, 1, counter);
+    compute(&copy, leftHandSideExpression, 1);
 
     char rightHandSideExpression[end + 7];
     strcpy(rightHandSideExpression, "_RHS = ");
     strcat(rightHandSideExpression, rightHandSide);
-    compute(&copy,items,  rightHandSideExpression, 1, counter);
+    compute(&copy,  rightHandSideExpression, 1);
 
     double valueOfLHS;
     double valueOfRHS;
@@ -82,7 +82,7 @@ int validateIf(char *instruction, int end, BSTNode **root, Item** items, int* co
     return 1;
 }
 
-void compute(BSTNode **root, Item** items, char *instruction, int line, int* counter) {
+void compute(BSTNode **root, char *instruction, int line) {
     char *variable, *expression;
     char copy[strlen(instruction)];
     int i;
@@ -92,8 +92,8 @@ void compute(BSTNode **root, Item** items, char *instruction, int line, int* cou
     if (isComment(instruction)) return;
 
     if ((i = isIfStatement(instruction)) > 0) {
-        if (validateIf(instruction, i, root, items, counter))
-            compute(root,items, &instruction[i + 1], line, counter);
+        if (validateIf(instruction, i, root))
+            compute(root, &instruction[i + 1], line);
         return;
     }
 
@@ -123,26 +123,21 @@ void compute(BSTNode **root, Item** items, char *instruction, int line, int* cou
     }
 
     *root = insert(*root, variable, value);
-
-    if (!strcmp(variable, "_LHS") || !strcmp(variable, "_RHS")) return;
-
-    *(items + *counter) = newItem(variable, value);
-    *counter = *counter + 1;
 }
 
 
-void readInput(FILE *file, BSTNode **root, Item** items, int* counter) {
+void readInput(FILE *file, BSTNode **root) {
     char input[256];
     int line = 1;
     while (!feof(file)) {
         fgets(input, 256, file);
         if (input[strlen(input) - 1] == '\n')
             input[strlen(input) - 1] = '\0';
-        compute(root, items, input, line++, counter);
+        compute(root, input, line++);
     }
 }
 
-void process(BSTNode **root, Item** items, int* counter) {
+void process(BSTNode **root) {
     error = 0;
     char filename[32];
     FILE *file;
@@ -154,7 +149,7 @@ void process(BSTNode **root, Item** items, int* counter) {
         file = fopen(filename, "r");
         if (file) {
             found = 1;
-            readInput(file, root, items, counter);
+            readInput(file, root);
         } else {
             printf("File not found!\n");
         }

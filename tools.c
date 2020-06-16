@@ -79,6 +79,3 @@ int isIfStatement(char * instruction){
     }
     return 0;
 }
-
-
-
